@@ -3,7 +3,8 @@ module.exports = {
     title: `John Pindel`,
     subtitle: `Tokyo Boi`,
     description: ``,
-    author: `@niklasmtj`,
+    author: `john pindel`,
+    insta: `https://www.instagram.com/lednipp/?hl=en`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

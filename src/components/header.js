@@ -2,6 +2,7 @@ import { Link } from "gatsby"
 import styled from "@emotion/styled"
 import PropTypes from "prop-types"
 import React from "react"
+import { FaInstagram  } from "react-icons/fa"
 
 const Content = styled.div`
   max-width: 860px;
@@ -79,7 +80,7 @@ const Header = ({ siteTitle }) => (
         <HomeLink to="/">{siteTitle}</HomeLink>
         <NavLink to="/blog">Blog</NavLink>
         <Insta href="https://www.instagram.com/lednipp/?hl=en">
-          Insta
+          <FaInstagram />
         </Insta>
       </p>
     </Content>
